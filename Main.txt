@@ -12,7 +12,7 @@ local success, Donos = pcall(function()
 end)
 
 if not success or type(Donos) ~= "table" then
-    Donos = {}
+    Donos = {um_caralegalo}
 end
 
 local Jails = {}
